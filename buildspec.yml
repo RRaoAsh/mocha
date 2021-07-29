@@ -1,0 +1,22 @@
+version: 0.2
+phases:
+
+  pre_build:
+    commands:
+      - npm install mocha --save-dev
+      - npm install chai --save-dev
+    
+
+      
+
+  build:
+    commands:
+      
+      -  npm install -g mocha 
+      -  npm install mochawesome
+      -  mocha --reporter mochawesome --exit
+      
+  post_build:
+    artifacts:
+      files:
+        - mochawesome-report/mochawesome.html

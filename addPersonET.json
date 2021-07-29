@@ -1,0 +1,33 @@
+{
+    "validValues" : 
+        {
+            "ephemeralTeamId":8, 
+            "personId":1
+
+        },
+    "inValidephemeralTeamId":
+        {
+            "ephemeralTeamId":9,
+            "personId":1
+
+        },
+    "inValidPersonId":
+        {
+            "ephemeralTeamId":8,
+            "personId":6
+
+        } , 
+    "personAlreadyOntheTeam":
+        {
+            "ephemeralTeamId":8,
+            "personId":1
+
+        } ,
+    "inValidValues":
+        {
+            "ephemeralTeamId":11,
+            "personId":10
+
+        }  
+    
+}

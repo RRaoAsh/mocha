@@ -1,0 +1,102 @@
+{
+    "validValues" : {
+        
+            "dutyId":  2,
+            "actionId": 1,
+            "assetId":  1,
+            "personId":  1,
+            "type":"'jpeg'",
+            "measurement":  "'26'",
+            "photo": "'base64 string format'"
+
+        },
+    "inValidValues":
+        {
+            "dutyId":  10,
+            "actionId": 20,
+            "assetId":  19,
+            "personId":  25,
+            "type":      "'jpeg'",
+            "measurement":  "'26'",
+            "photo": "'base64 string format'"
+
+        },
+    "photoValueNull":
+        {
+            "dutyId":  1,
+            "actionId": 1,
+            "assetId":  1,
+            "personId":  1,
+            "type":"'jpeg'",
+            "measurement":  "'26'",
+            "photo": "''"
+
+        } , 
+    "invalidDutyId":
+        {
+            "dutyId":  10,
+            "actionId": 1,
+            "assetId":  1,
+            "personId":  1,
+            "type":"'jpeg'",
+            "measurement":  "'26'",
+            "photo": "base64 string format"
+
+        } ,
+    "invalidPersonId" :
+        {
+            "dutyId":  1,
+            "actionId": 1,
+            "assetId":  1,
+            "personId":  17,
+            "type":"'jpeg'",
+            "measurement":  "'26'",
+            "photo": "base64 string format"
+
+        } , 
+    "invalidActionId":
+        {
+            "dutyId":  1,
+            "actionId": 22,
+            "assetId":  1,
+            "personId":  1,
+            "type":"'jpeg'",
+            "measurement":  "'26'",
+            "photo": "base64 string format"
+
+        } , 
+    "invalidAssetId" :
+        {
+            "dutyId":  1,
+            "actionId": 1,
+            "assetId":  100,
+            "personId":  1,
+            "type":"'jpeg'",
+            "measurement":  "'26'",
+            "photo": "base64 string format"
+
+        } ,
+    "morePhotos" :
+        {
+            "dutyId":  1,
+            "actionId": 1,
+            "assetId":  1,
+            "personId":  1,
+            "type":"'jpeg'",
+            "measurement":  "'26'",
+            "photo": "base64 string format,base64 string format"
+
+        },
+    "noMeasurementValue" :
+        {
+            "dutyId":  1,
+            "actionId": 1,
+            "assetId":  1,
+            "personId":  1,
+            "type":"'jpeg'",
+            "measurement":  "''",
+            "photo": "base64 string format"
+
+        } 
+    
+}

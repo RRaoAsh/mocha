@@ -1,0 +1,27 @@
+{
+    "validValues" : 
+        {
+            "ephemeralTeamId":2,
+            "dutyId":1
+
+        },
+    "invalidEphemeralTeamId":
+        {
+            "ephemeralTeamId":9,
+            "dutyId":1
+
+        },
+    "invalidDutyId":
+        {
+            "ephemeralTeamId":8,
+            "dutyId":6
+
+        } , 
+    "invalidValues":
+        {
+            "ephemeralTeamId":9,
+            "dutyId":6
+
+        }  
+    
+}
